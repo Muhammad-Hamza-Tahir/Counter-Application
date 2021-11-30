@@ -1,0 +1,16 @@
+.main{
+    width: 1320px;
+    height: 600px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+#heading{
+    font-size: 50px;
+}
+#result{
+    color: green;
+    font-size: 50px;
+    margin-top: 0px;
+}
