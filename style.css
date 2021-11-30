@@ -5,12 +5,49 @@
     align-items:center;
     justify-content: center;
     flex-direction: column;
+    background-color: whitesmoke;
 }
 #heading{
-    font-size: 50px;
+    font-size: 60px;
 }
 #result{
     color: green;
-    font-size: 50px;
+    font-size: 80px;
     margin-top: 0px;
 }
+#increase{
+    width:100px;
+    height: 25px;
+    border-radius:10px;
+}
+#decrease{
+    width: 100px;
+    height: 25px;
+    border-radius:10px;
+}
+#reset{
+    width: 100px;
+    height: 25px;
+    border-radius:10px;
+}
+#increase:hover{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    transition: .5s;
+    height: 25px;
+} 
+#decrease:hover{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    transition: .5s;
+    height: 25px;
+} 
+#reset:hover{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    transition: .5s;
+    height: 25px;
+} 
